@@ -22,9 +22,9 @@ El repositorio actual está configurado para su despliegue en GitHub Pages. Debi
 
 **3. Autoridad y Conversión**
 
-SEO Local y Datos Estructurados: Implementación de JSON-LD para mejorar la visibilidad en búsquedas geográficas y directorios locales.<br>
-Social SEO: Integración de etiquetas Open Graph para generar tarjetas de previsualización profesionales en redes sociales, aumentando el CTR.<br>
-Estrategia de Contenido: Secciones dinámicas de ofertas y descuentos para potenciar la intención de compra y reducir la tasa de rebote.<br>
+**SEO Local y Datos Estructurados:** Implementación de JSON-LD para mejorar la visibilidad en búsquedas geográficas y directorios locales.<br>
+**Social SEO:** Integración de etiquetas Open Graph para generar tarjetas de previsualización profesionales en redes sociales, aumentando el CTR.<br>
+**Estrategia de Contenido:** Secciones dinámicas de ofertas y descuentos para potenciar la intención de compra y reducir la tasa de rebote.<br>
 
 # Tecnologías Utilizadas
 
