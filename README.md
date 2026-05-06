@@ -6,7 +6,7 @@ Este proyecto evoluciona de un sistema de gestión robusto hacia una plataforma 
 
 El repositorio actual está configurado para su despliegue en GitHub Pages. Debido a que este es un entorno de hosting estático, las funciones de backend (PHP) y la conexión a base de datos están disponibles como código fuente para auditoría académica, pero no se ejecutan en el enlace en vivo. Para funcionalidad completa, se requiere un entorno LAMP/WAMP local.
 
-Características y Optimización SEO
+# Características y Optimización SEO
 
 1. Optimización On-Page y Semántica
 
