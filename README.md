@@ -10,7 +10,7 @@ El repositorio actual está configurado para su despliegue en GitHub Pages. Debi
 
 **1. Optimización On-Page y Semántica**
 
-Estructura Jerárquica: Ajuste de títulos, meta-descripciones y encabezados <!-- <h1> --> para mejorar la indexación de palabras clave relacionadas con transporte.<br>
+Estructura Jerárquica: Ajuste de títulos, meta-descripciones y encabezados `<h1>` para mejorar la indexación de palabras clave relacionadas con transporte.<br>
 Accesibilidad y Rastreo: Inclusión de atributos alt en imágenes para mejorar la experiencia de usuario y facilitar el rastreo de los bots de búsqueda.<br>
 Arquitectura de Información: Uso de etiquetas semánticas de HTML5 (article, time, blockquote) para organizar noticias, FAQs y promociones.<br>
 
