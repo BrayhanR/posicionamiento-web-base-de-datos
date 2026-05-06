@@ -6,7 +6,7 @@ Este proyecto evoluciona de un sistema de gestión robusto hacia una plataforma 
 
 El repositorio actual está configurado para su despliegue en GitHub Pages. Debido a que este es un entorno de hosting estático, las funciones de backend (PHP) y la conexión a base de datos están disponibles como código fuente para auditoría académica, pero no se ejecutan en el enlace en vivo. Para funcionalidad completa, se requiere un entorno LAMP/WAMP local.
 
-# Características y Optimización SEO
+Características y Optimización SEO
 
 1. Optimización On-Page y Semántica
 
@@ -26,14 +26,14 @@ SEO Local y Datos Estructurados: Implementación de JSON-LD para mejorar la visi
 Social SEO: Integración de etiquetas Open Graph para generar tarjetas de previsualización profesionales en redes sociales, aumentando el CTR.
 Estrategia de Contenido: Secciones dinámicas de ofertas y descuentos para potenciar la intención de compra y reducir la tasa de rebote.
 
-## Tecnologías Utilizadas
+Tecnologías Utilizadas
 
 SEO & Analytics: Google Search Console, Google Analytics, JSON-LD, Open Graph.
 Frontend: HTML5 Semántico, CSS3 (BEM/Modular), JavaScript (Vanilla).
 Backend: PHP 8.x (Código fuente disponible).
 Base de Datos: MySQL / MariaDB.
 
-### Estrategia de Medición (KPIs)
+Estrategia de Medición (KPIs)
 
 Para asegurar el éxito del proyecto, se ha establecido un sistema de seguimiento mediante un Dashboard de Control que monitorea:
 
@@ -42,7 +42,7 @@ Posicionamiento Orgánico: Ranking de palabras clave estratégicas.
 Tasa de Rebote: Permanencia de los usuarios en secciones de noticias y servicios.
 Conversiones: Clics en contactos interactivos y agendamiento.
 
-#### Acceso al Sistema y Backend
+Acceso al Sistema y Backend
 
 Aunque el enfoque principal es SEO, el sistema conserva su estructura de roles:
 
@@ -50,7 +50,7 @@ Administrador: Gestión total de rutas, transportadoras y reportes.
 Pasajero / Cliente: Consulta de horarios, agendamiento de viajes y perfil personal.
 Para ejecución local, importar los archivos .sql y configurar main/PHP/conexion.php con las credenciales de su servidor XAMPP/WAMP.
 
-##### Estructura del Proyecto
+Estructura del Proyecto
 
 admin/: Módulos de administración para la gestión de reservas, rutas y logística de transporte.
 assets/: Recursos multimedia y archivos gráficos del sitio.
