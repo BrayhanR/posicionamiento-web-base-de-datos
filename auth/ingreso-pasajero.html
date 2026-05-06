@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agendamiento de viajes, consulta de rutas en la Terminal de Transporte de Bogotá."> <!-- SEO On-Page  -->
+
+    <!-- SEO Linkbuilding: Esto controla cómo se ve el link al compartirlo -->
+    <meta property="og:title" content="Terminal de Transporte de Bogotá - Consulta de rutas, noticias, y servicios">
+    <meta property="og:description" content="Consulta rutas y noticias actualizadas de la terminal principal de Bogotá.">
+    <meta property="og:image" content="https://brayhanr.github.io/posicionamiento-web/images/terminal-logo-color.webp">
+    <meta property="og:url" content="https://brayhanr.github.io/posicionamiento-web">  
+
+    <title>Terminal de Transporte de Bogotá | Ingresar como pasajero</title> <!-- SEO On-Page  -->
+    <link rel="icon" type="image/webp" href="../assets/favicon.webp">
+    <link rel="preconnect"  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main/CSS/auth.css">
+
+    <!-- SEO Local NAP (Name, Address, Phone) para Datos Estructurados (LocalBusiness)-->
+    <script type="application/ld+json">              
+        {
+        "@context": "https://schema.org",
+        "@type": "BusStation",
+        "name": "Terminal de Transporte de Bogotá",
+        "image": "https://brayhanr.github.io/posicionamiento-web/images/terminal-logo-color.webp",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Diagonal 23 #69 - 11",
+            "addressLocality": "Bogotá",
+            "addressRegion": "Cundinamarca",
+            "addressCountry": "CO"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 4.654017,
+            "longitude": -74.133427
+        },
+        "telephone": "+576014233600",
+        "url": "https://brayhanr.github.io/posicionamiento-web",
+        "openingHours": "Mo-Su 00:00-23:59"
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="students">
+                <h4>Estudiantes:</h4>
+                <h4>Emmanuel Santiago Fernández López</h4>
+                <h4>Yuliana Moreno Pérez</h4>
+                <h4>Albert Daniel Ramírez García</h4>
+                <h4>Brayhan Sty Rodriguez Rueda</h4>
+                <h4>María Alejandra Urrea Peña</h4>            
+            </div>
+            <div id="UNADlogo">
+                <img loading="lazy" src="../assets/images/Logo_unad_color.webp">               
+            </div>            
+        </div>
+        <div class="logo-terminal">
+            <img loading="lazy" src="../assets/images/terminal-logo-color.webp" alt="Logo oficial Terminal de Transporte de Bogotá"> <!-- SEO On-Page  -->
+            <img loading="lazy" src="../assets/images/logo-bogota-2.webp" alt="Logo oficial Alcaldía de Bogotá"> <!-- SEO On-Page  -->  
+        </div>
+        <div id="menu">
+            <a href="../public/index.html">Inicio</a>
+            <a href="../public/servicios.html">Servicios</a>
+            <a href="../public/empresas.html">Empresas</a>
+            <a href="../public/contacto.html">Contacto</a>
+            <a href="../public/referencias.html">Referencias</a>
+            <a href="ingreso.html" class="ingreso">Ingresar</a>
+        </div>         
+       
+        <div class="paragraphs">
+            <div class="column">
+                <div class="login-container">
+                    <form action="../auth/ingreso-pasajero.php" method="POST">
+                        <div class="hero-input">
+                            <input type="email" name="correo" required>
+                            <label for="correo">Ingresa tu correo</label>                            
+                        </div>                        
+                        
+                        <div class="hero-input">
+                            <input type="password" name="contrasena" required>
+                            <label for="password1">Ingresa tu contraseña</label>                            
+                        </div>
+                        <div class="cta-btn">
+                            <button type="submit">Ingresar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="hero-options">
+                    <p>¿No tienes cuenta? <a href="registro-pasajero.html">Registrar cuenta</a></p>
+                    <p>¿Olvidaste tu contraseña? <a href="#" onclick="alert('Por seguridad, para recuperar tu cuenta debes acercarte a las ventanillas de la Terminal de Bogotá con tu documento de identidad o escribir a: terminalbogota@terminaldetransporte.gov.co')">Haz clic aquí</a></p>
+                </div>
+            </div>                  
+        </div>        
+        <footer class="footer">
+            <div>
+                <p>Curso: Desarrollo de aplicaciones para web - (202047916A_2201)</p>
+            </div>
+        </footer> 
+    </div>        
+</body>
+</html>

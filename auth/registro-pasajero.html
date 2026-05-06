@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrarse como pasajero en la Terminal de Transporte de Bogotá."> <!-- SEO On-Page  -->
+
+    <!-- SEO Linkbuilding: Esto controla cómo se ve el link al compartirlo -->
+    <meta property="og:title" content="Terminal de Transporte de Bogotá - Consulta de rutas, noticias, y servicios">
+    <meta property="og:description" content="Consulta rutas y noticias actualizadas de la terminal principal de Bogotá.">
+    <meta property="og:image" content="https://brayhanr.github.io/posicionamiento-web/images/terminal-logo-color.webp">
+    <meta property="og:url" content="https://brayhanr.github.io/posicionamiento-web">  
+
+    <title>Terminal de Transporte de Bogotá | Registrarse como pasajero</title> <!-- SEO On-Page  -->
+    <link rel="icon" type="image/webp" href="../assets/favicon.webp">
+    <link rel="preconnect"  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../main/CSS/auth.css">
+
+    <!-- SEO Local NAP (Name, Address, Phone) para Datos Estructurados (LocalBusiness)-->
+    <script type="application/ld+json">              
+        {
+        "@context": "https://schema.org",
+        "@type": "BusStation",
+        "name": "Terminal de Transporte de Bogotá",
+        "image": "https://brayhanr.github.io/posicionamiento-web/images/terminal-logo-color.webp",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Diagonal 23 #69 - 11",
+            "addressLocality": "Bogotá",
+            "addressRegion": "Cundinamarca",
+            "addressCountry": "CO"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 4.654017,
+            "longitude": -74.133427
+        },
+        "telephone": "+576014233600",
+        "url": "https://brayhanr.github.io/posicionamiento-web",
+        "openingHours": "Mo-Su 00:00-23:59"
+        }
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="students">
+                <h4>Estudiantes:</h4>
+                <h4>Emmanuel Santiago Fernández López</h4>
+                <h4>Yuliana Moreno Pérez</h4>
+                <h4>Albert Daniel Ramírez García</h4>
+                <h4>Brayhan Sty Rodriguez Rueda</h4>
+                <h4>María Alejandra Urrea Peña</h4>            
+            </div>
+            <div id="UNADlogo">
+                <img loading="lazy"  src="../assets/images/Logo_unad_color.webp">
+            </div>            
+        </div>
+        <div class="logo-terminal">
+            <img loading="lazy" src="../assets/images/terminal-logo-color.webp" alt="Logo oficial Terminal de Transporte de Bogotá"> <!-- SEO On-Page  -->
+            <img loading="lazy" src="../assets/images/logo-bogota-2.webp" alt="Logo oficial Alcaldía de Bogotá"> <!-- SEO On-Page  -->  
+        </div>
+        <div id="menu">
+            <a href="../public/index.html">Inicio</a>
+            <a href="../public/servicios.html">Servicios</a>
+            <a href="../public/empresas.html">Empresas</a>
+            <a href="../public/contacto.html">Contacto</a>
+            <a href="../public/referencias.html">Referencias</a> 
+            <a href="../auth/ingreso.html" class="ingreso">Ingresar</a>          
+        </div>
+        <div class="paragraphs">
+            <div class="column">                 
+        <div class="hero-form">  
+            <h1 class="hero-title">Crea tu cuenta como pasajero</h1>
+            <form action="../auth/registro-usuario.php" method="POST">             
+            <!-- cedula -->
+                <div class="hero-input">
+                    <input type="text" name="cedula" id="cedula" required>
+                    <label for="cedula">Ingresa tu cédula</label>                    
+                </div>    
+            <!-- nombre -->
+                <div class="hero-input">
+                    <input type="text" name="first-name" id="first-name" required>
+                    <label for="first-name">Ingresa tu nombre</label>                    
+                </div>
+            <!-- apellido -->
+                <div class="hero-input">
+                    <input type="text" name="last-name" id="last-name" required>
+                    <label for="last-name">Ingresa tu apellido</label>                    
+                </div>
+            <!-- Email -->
+                <div class="hero-input">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Ingresa tu correo</label>                    
+                </div>
+            <!-- dirección -->
+                <div class="hero-input">
+                    <input type="text" name="address" id="address" required>
+                    <label for="address">Ingresa tu dirección</label>                    
+                </div>
+                <!-- Telefono -->
+                <div class="hero-input">
+                    <input type="text" name="telefono" id="telefono" required>
+                    <label for="telefono">Ingresa tu teléfono</label>                    
+                </div>
+            <!-- Password -->
+                <div class="hero-input">
+                    <input type="password" name="password1" id="password1" required>
+                    <label for="password1">Ingresa tu contraseña</label>                    
+                </div>
+            <!-- Confirm Password -->
+                <div class="hero-input">
+                    <input type="password" name="password2" id="password2" required>
+                    <label for="password2">Confirma tu contraseña</label>                   
+                </div>            
+                <div class="cta-btn">  <!-- Acá va el rol -->
+                    <button type="submit" name="rol" value="pasajero">Registrarse</button>
+                </div>            
+            </form>
+            <div class="hero-options">
+                    <p>¿Ya tienes una cuenta? <a href="ingreso-pasajero.html">Ingresa</a></p>                    
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div>
+                <p>Curso: Desarrollo de aplicaciones para web - (202047916A_2201)</p>
+            </div>
+        </footer>            
+    </div>              
+</body>
+</html>

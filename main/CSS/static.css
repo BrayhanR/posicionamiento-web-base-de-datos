@@ -1,0 +1,650 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0       
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 150hv;    
+}
+/* ---------- HEADER ----------- */
+.header{
+    background-color: #004B70;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+    }
+
+.header div{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.students{
+    font-size: 10px;    
+}
+
+#UNADlogo img{
+    background-color: white;
+    width: 100px;
+    border-style: groove;
+    border-color: rgb(179, 173, 173);
+    border-radius: 10px;
+}
+
+/* --------- LOGO TERMINAL --------- */
+.logo-terminal{   
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* --------- MENU -------- */
+#menu{
+    background-color: #004B70;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* menu ajustes generales */
+#menu a:not(.ingreso){ 
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid white;
+}
+/* para borrar la linea del final */
+#menu a:last-child{ 
+    border-right: none;
+}
+
+/* menu ajustes de estilo */
+#menu{
+    background-color: #004B70;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* menu ajustes generales */
+#menu a:not(.ingreso){ 
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid white;
+}
+/* menu ajustes de estilo */
+#menu a:not(.ingreso){
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+
+#menu a:not(.ingreso):hover{ 
+    font-size: 20px;
+    font-weight: bold;
+    color: #e0b114; 
+}
+
+#menu a:hover, #menu a.active{ 
+    font-size: 20px;
+    font-weight: bold;
+    color: #e0b114; 
+}
+
+.ingreso{
+    background-image: url(../../assets/images/login-huella.webp);    
+    background-repeat: no-repeat; 
+    background-position: 15px center;        
+    background-size: 20px;      
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 17px;
+    color: white;   
+    line-height: 30px;       
+    display: flex;   
+    flex-direction: row;
+    padding-left: 45px;  
+    transition: font-size 0.3s ease, background-size 0.3s ease, color 0.3s ease;      
+}
+
+.ingreso:hover{ 
+    font-size: 20px;
+    font-weight: bold;
+    color: #e0b114; 
+    background-size: 22px;    
+    filter: sepia(1) saturate(5) hue-rotate(10deg) brightness(0.9);    
+}
+
+/* ---------- PARAGRAPHS/COLUMNS ---------- */
+.paragraphs{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+}
+.column{        
+    font-size: 20px;   
+    margin: 7px;
+    border: 1px solid #004B70;
+    border-radius: 10px;
+    color: #004B70;
+    padding: 10px 30px; 
+    display: flex; 
+    flex-direction: column;  
+}
+
+.column h2, h4{
+    text-align: center;
+}
+/* span para textos en negrilla */
+.text-bold{
+    font-weight: bold;
+}
+/* ---------- CARRUSEL DE IMAGENES (index.html) ---------- */
+.carousel {
+    width: 800px; 
+    height: 450px;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 5px; 
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px; 
+    width: calc((800px * 2) + 20px); 
+    animation: slide-paused 12s infinite;  
+}
+
+.carousel img {
+    width: 800px;
+    height: 100%;  
+    object-fit: cover;
+    flex-shrink: 0; 
+}
+
+@keyframes slide-paused {
+    0%, 40% { transform: translateX(0);}     
+    45% { transform: translateX(calc(-800px - 20px));}    
+    45%, 90% { transform: translateX(calc(-800px - 20px));}     
+    100% { transform: translateX(0);}
+}
+/* Estilo para noticias, promociones y PQRS*/
+ul {
+    list-style-type: none;
+}
+
+.tab-space {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+blockquote {
+    border-left: 5px solid #004B70; 
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #555;
+}
+
+details {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: #004B70; 
+}
+
+details p {
+    margin-top: 10px;
+    color: #333;
+}
+
+.promo-item {
+    padding: 15px 0;
+    position: relative;
+}
+
+.promo-badge {
+    display: inline-block;
+    background-color: #e63946; 
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btn-promo {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004B70;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease; 
+}
+
+.btn-promo:hover {
+  color: #2980b9;
+}
+
+.btn-promo:active {
+  color: #1c5980; 
+  transform: translateY(1px); 
+}
+
+/* ---------- TABLAS RUTAS (servicios.html) ---------- */
+.table-columns {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: #fff; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.table-columns .table-header {   
+    background-color: #004B70; 
+    color: #fff; 
+    font-weight: bold;         
+}
+
+.table-columns .table-inside {
+    text-align: center;    
+    border-right: 1px solid #004B70;
+}
+
+.table-columns .table-inside div:not(.table-header) {
+   margin: 3px;   
+}
+
+.table-columns .table-inside:last-child {
+    border-right: none;
+}
+
+/* Tabla horarios */
+.table-rows {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column;
+}
+
+.table-rows .table-header {
+    background-color: #004B70; 
+    color: #fff; 
+    font-weight: bold;       
+}
+
+.table-rows .table-inside {  
+    text-align: center;      
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    border-bottom: 1px solid #004B70;   
+}
+
+.table-rows .table-inside:last-child {    
+    border-bottom: none;         
+}
+
+.table-rows .table-inside div:not(.table-header):last-child {
+    border-right: none;
+}
+
+.table-rows .table-inside div:not(.table-header) {
+    border-right: 1px solid #004B70;   
+}
+
+/* Tabla tipo de vehiculo */
+.table-rows .table-inside-2-elements {    
+    text-align: center;      
+    border-bottom: 1px solid #004B70;   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.table-rows .table-inside-2-elements div:not(.table-header) {
+    border-right: 1px solid #004B70;   
+}
+
+.table-rows .table-inside-2-elements:last-child {    
+    border-bottom: none;        
+}
+
+.table-rows .table-inside-2-elements div:not(.table-header):last-child {
+    border-right: none;
+}
+
+/* GIF */
+.gif-simulacion {
+    width: 100%;
+    margin-top: 40px;
+}
+/* ---------- LISTA (empresas.html) ---------- */
+.list-companies{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* ---------- FORMULARIO (contacto.html) ---------- */
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.form label{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form input{
+    border-color: #004B70;
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.form input:first-child{
+    margin-top: 15px;   
+}
+
+.form textarea{    
+    border-color: #004B70;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.form label:last-of-type {
+    font-size: 11px;
+}
+
+.form input[type="checkbox"]{
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    accent-color: #004B70;
+}
+
+.button{        
+    padding: 15px;
+    margin-top: 20px;
+    width: 200px;    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;   
+    outline: none;
+    color: white;
+    background-color: #004B70;
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.button:active {
+  background-color: #1c5980; 
+  transform: translateY(1px); 
+}
+ 
+/* span para campos obligatorios */
+.mandatory {
+    color: red;
+}
+
+#message {    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -3px;
+    font-size: 18px;
+    color: #28a745;       
+}
+
+#message2 {    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -3px;
+    font-size: 18px;
+    color: red;       
+}
+
+#message3 {    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -3px;
+    font-size: 18px;
+    color: red;       
+}
+
+.hidden {
+    display: none; 
+}
+
+.hidden2 {
+    display: none; 
+}
+
+.hidden3 {
+    display: none; 
+}
+
+/* Dirección */
+.column iframe{
+    height: 300px;   
+    margin-top: 15px; 
+}
+/* ---------- PARAGRAPHS (referencias.html) ---------- */
+.paragraphs-referencias { 
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;      
+}
+.column-referencias {        
+    font-size: 20px;   
+    margin: 7px;
+    border: 1px solid #004B70;
+    border-radius: 10px;
+    color: #004B70;
+    padding: 10px 30px; 
+    display: flex; 
+    flex-direction: column;  
+}
+
+.column-referencias h2, h4{
+    text-align: center;
+}
+/* -------- FOOTER ------- */
+.footer{   
+    font-size: 18px;
+    height: 60px;
+    background: #004B70;
+    color: white;
+    padding: 10px 30px;
+    margin-top: auto;
+    text-align: center;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+/* -------- CONTENIDO RESPONSIVO EN DIFERENTES PANTALLAS ------- */
+@media screen and (max-width: 700px){
+    #UNADlogo img {
+        width: 200px;
+    }
+    #menu{
+        flex-direction: column;       
+        align-content: center;         
+    }
+    #menu a {       
+        border-right: none !important;      
+    }   
+    .paragraphs{
+        display: flex;
+        flex-direction: column;       
+        align-content: center;         
+    }    
+    .column p{
+        overflow-wrap: break-word;
+    }  
+    .column-referencias a{
+        overflow-wrap: break-word; 
+        word-break: break-all;    
+        display: inline-block;  
+        max-width: 100%;
+    }   
+     .column-referencias p{
+        overflow-wrap: break-word;
+    } 
+
+    .logo-terminal img{    
+        width: 220px;
+        flex-direction: row;
+        align-items: center;    
+    }    
+    .carousel {
+        width: 600px; 
+        height: 300px;
+        margin: 20px auto;
+        overflow: hidden;
+        border: 5px; 
+    }
+    .carousel-track {
+        display: flex;
+        gap: 20px; 
+        width: calc((600px * 2) + 20px); 
+        animation: slide-paused 12s infinite;  
+    }
+    .carousel img {
+        width: 600px;
+        height: 300px;  
+        object-fit: cover;
+        flex-shrink: 0; 
+    }
+
+    @keyframes slide-paused {
+        0%, 40% { transform: translateX(0);}     
+        45% { transform: translateX(calc(-600px - 20px));}    
+        45%, 90% { transform: translateX(calc(-600px - 20px));}     
+        100% { transform: translateX(0);}
+    }
+    .list-companies{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 435px){
+    #UNADlogo img {
+        width: 100px;
+    }
+    #menu{        
+        flex-direction: column;       
+        align-content: center;         
+    }
+    #menu a {
+        border-right: none;
+        padding: 40px 55px;        
+    }
+    #menu a:hover, #menu a.active{        
+        font-size: inherit;
+        border-right: none;
+        font-weight: normal;       
+    }
+    .logo-terminal{    
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .column {
+        width: 390px;
+    }
+    .column p{
+        overflow-wrap: break-word;
+    }    
+    .carousel {
+        width: 300px; 
+        height: 200px;
+        margin: 20px auto;
+        overflow: hidden;
+        border: 5px; 
+    }
+    .carousel-track {
+        display: flex;
+        gap: 20px; 
+        width: calc((300px * 2) + 20px); 
+        animation: slide-paused 12s infinite;  
+    }
+    .carousel img {
+        width: 300px;
+        height: 200px;  
+        object-fit: cover;
+        flex-shrink: 0; 
+    }
+
+    @keyframes slide-paused {
+        0%, 40% { transform: translateX(0);}     
+        45% { transform: translateX(calc(-300px - 20px));}    
+        45%, 90% { transform: translateX(calc(-300px - 20px));}     
+        100% { transform: translateX(0);}
+    }    
+    .paragraphs{      
+        align-items: center;             
+    }
+
+    .paragraphs-referencias{ 
+        display: flex;
+        flex-direction: row;          
+    }
+    .column-referencias {
+        width: 390px;
+    }
+    .column-referencias p{
+        overflow-wrap: break-word;
+    }    
+    .column-referencias a{
+        overflow-wrap: break-word; 
+        word-break: break-all;    
+        display: inline-block;  
+        max-width: 100%;
+    }    
+}
