@@ -61,7 +61,7 @@ Para ejecución local, importar los archivos .sql y configurar main/PHP/conexion
 **main/:** Núcleo técnico del sistema que centraliza los estilos CSS modulares, scripts de JavaScript y la lógica de conexión PHP.<br>
 **public/:** Directorio raíz con páginas HTML altamente optimizadas para SEO e indexación.<br>
 
-**Desarrollado por (Grupo: 202047916_21):**
+## Desarrollado por (Grupo: 202047916_21):
 
 Emmanuel Santiago Fernández López<br>
 Yuliana Moreno Pérez<br>
