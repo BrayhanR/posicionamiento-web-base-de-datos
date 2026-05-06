@@ -2,7 +2,7 @@ Sistema de Gestión de Transporte y Estrategia de Posicionamiento Web (SEO)
 
 Este proyecto evoluciona de un sistema de gestión robusto hacia una plataforma optimizada bajo estándares de SEO Técnico, Semántico y de Contenido. El sistema permite la gestión de usuarios y rutas para una Terminal de Transporte, garantizando no solo la funcionalidad operativa mediante PHP y MySQL, sino también una visibilidad orgánica superior en motores de búsqueda.
 
-⚠️ Nota de Implementación (Entorno Estático)
+# ⚠️ Nota de Implementación (Entorno Estático)
 
 El repositorio actual está configurado para su despliegue en GitHub Pages. Debido a que este es un entorno de hosting estático, las funciones de backend (PHP) y la conexión a base de datos están disponibles como código fuente para auditoría académica, pero no se ejecutan en el enlace en vivo. Para funcionalidad completa, se requiere un entorno LAMP/WAMP local.
 
