@@ -10,15 +10,15 @@ El repositorio actual está configurado para su despliegue en GitHub Pages. Debi
 
 **1. Optimización On-Page y Semántica**
 
-Estructura Jerárquica: Ajuste de títulos, meta-descripciones y encabezados `<h1>` para mejorar la indexación de palabras clave relacionadas con transporte.<br>
-Accesibilidad y Rastreo: Inclusión de atributos alt en imágenes para mejorar la experiencia de usuario y facilitar el rastreo de los bots de búsqueda.<br>
-Arquitectura de Información: Uso de etiquetas semánticas de HTML5 (`<article>`, `<time>`, `<blockquote>`) para organizar noticias, FAQs y promociones.<br>
+**Estructura Jerárquica:** Ajuste de títulos, meta-descripciones y encabezados `<h1>` para mejorar la indexación de palabras clave relacionadas con transporte.<br>
+**Accesibilidad y Rastreo:** Inclusión de atributos alt en imágenes para mejorar la experiencia de usuario y facilitar el rastreo de los bots de búsqueda.<br>
+**Arquitectura de Información:** Uso de etiquetas semánticas de HTML5 (`<article>`, `<time>`, `<blockquote>`) para organizar noticias, FAQs y promociones.<br>
 
 **2. SEO Técnico y Rendimiento**
    
-WPO (Web Performance Optimization): Optimización de imágenes mediante formato .webp y compresión con TinyPNG y EZGIF.<br>
-Carga Eficiente: Implementación de loading="lazy" para imágenes y rel="preconnect" para recursos externos, reduciendo tiempos de carga.<br>
-Diseño Responsive: Adaptabilidad total mediante reglas CSS para mejorar el posicionamiento en dispositivos mó  ezgifviles.<br>
+**WPO (Web Performance Optimization)**: Optimización de imágenes mediante formato .webp y compresión con TinyPNG y EZGIF.<br>
+**Carga Eficiente:** Implementación de loading="lazy" para imágenes y rel="preconnect" para recursos externos, reduciendo tiempos de carga.<br>
+**Diseño Responsive:** Adaptabilidad total mediante reglas CSS para mejorar el posicionamiento en dispositivos mó  ezgifviles.<br>
 
 **3. Autoridad y Conversión**
 
@@ -30,7 +30,7 @@ Estrategia de Contenido: Secciones dinámicas de ofertas y descuentos para poten
 
 **SEO & Analytics:** Google Search Console, Google Analytics, JSON-LD, Open Graph.<br>
 **Frontend:** HTML5 Semántico, CSS3 (BEM/Modular), JavaScript (Vanilla).<br>
-**Backend: **PHP 8.x (Código fuente disponible).<br>
+**Backend:** PHP 8.x (Código fuente disponible).<br>
 **Base de Datos:** MySQL / MariaDB.<br>
 
 # Estrategia de Medición (KPIs)
@@ -39,27 +39,27 @@ Para asegurar el éxito del proyecto, se ha establecido un sistema de seguimient
 
 **Visitas y Sesiones:** Flujo de usuarios hacia la terminal.<br>
 **Posicionamiento Orgánico:** Ranking de palabras clave estratégicas.<br>
-**Tasa de Rebote: **Permanencia de los usuarios en secciones de noticias y servicios.<br>
+**Tasa de Rebote:** Permanencia de los usuarios en secciones de noticias y servicios.<br>
 **Conversiones:** Clics en contactos interactivos y agendamiento.<br>
 
 # Acceso al Sistema y Backend
 
 Aunque el enfoque principal es SEO, el sistema conserva su estructura de roles:
 
-**Administrador: **Gestión total de rutas, transportadoras y reportes.<br>
+**Administrador:** Gestión total de rutas, transportadoras y reportes.<br>
 **Pasajero / Cliente:** Consulta de horarios, agendamiento de viajes y perfil personal.<br>
 Para ejecución local, importar los archivos .sql y configurar main/PHP/conexion.php con las credenciales de su servidor XAMPP/WAMP.<br>
 
 # Estructura del Proyecto
 
-**admin/: **Módulos de administración para la gestión de reservas, rutas y logística de transporte.<br>
-**assets/: **Recursos multimedia y archivos gráficos del sitio.<br>
-**auth/: **Procesadores de autenticación y formularios de acceso optimizados.<br>
+**admin/:** Módulos de administración para la gestión de reservas, rutas y logística de transporte.<br>
+**assets/:** Recursos multimedia y archivos gráficos del sitio.<br>
+**auth/:** Procesadores de autenticación y formularios de acceso optimizados.<br>
 **cliente/:** Panel de usuario con funcionalidades exclusivas para la gestión de servicios del pasajero.<br>
 **database/:** Repositorio de scripts .sql (usuario, reserva, servicio, etc.) para la construcción de la base de datos relacional.<br>
 **documentacion/:** Archivos de soporte y manuales del proyecto académico.<br>
 **main/:** Núcleo técnico del sistema que centraliza los estilos CSS modulares, scripts de JavaScript y la lógica de conexión PHP.<br>
-**public/: **Directorio raíz con páginas HTML altamente optimizadas para SEO e indexación.<br>
+**public/:** Directorio raíz con páginas HTML altamente optimizadas para SEO e indexación.<br>
 
 # Desarrollado por (Grupo: 202047916_21):
 
