@@ -10,29 +10,34 @@ El repositorio actual está configurado para su despliegue en GitHub Pages. Debi
 
 1. Optimización On-Page y Semántica
 
-Estructura Jerárquica: Ajuste de títulos, meta-descripciones y encabezados h1 para mejorar la indexación de palabras clave relacionadas con transporte.
-
-Accesibilidad y Rastreo: Inclusión de atributos alt en imágenes para mejorar la experiencia de usuario y facilitar el rastreo de los bots de búsqueda.
-
-Arquitectura de Información: Uso de etiquetas semánticas de HTML5 (article, time, blockquote) para organizar noticias, FAQs y promociones.
+Estructura Jerárquica: Ajuste de títulos, meta-descripciones y encabezados h1 para mejorar la indexación de palabras clave relacionadas con transporte.<br>
+Accesibilidad y Rastreo: Inclusión de atributos alt en imágenes para mejorar la experiencia de usuario y facilitar el rastreo de los bots de búsqueda.<br>
+Arquitectura de Información: Uso de etiquetas semánticas de HTML5 (article, time, blockquote) para organizar noticias, FAQs y promociones.<br>
 
 2. SEO Técnico y Rendimiento
    
 WPO (Web Performance Optimization): Optimización de imágenes mediante formato .webp y compresión con TinyPNG y EZGIF.
+
 Carga Eficiente: Implementación de loading="lazy" para imágenes y rel="preconnect" para recursos externos, reduciendo tiempos de carga.
+
 Diseño Responsive: Adaptabilidad total mediante reglas CSS para mejorar el posicionamiento en dispositivos mó  ezgifviles.
 
 3. Autoridad y Conversión
 
 SEO Local y Datos Estructurados: Implementación de JSON-LD para mejorar la visibilidad en búsquedas geográficas y directorios locales.
+
 Social SEO: Integración de etiquetas Open Graph para generar tarjetas de previsualización profesionales en redes sociales, aumentando el CTR.
+
 Estrategia de Contenido: Secciones dinámicas de ofertas y descuentos para potenciar la intención de compra y reducir la tasa de rebote.
 
 # Tecnologías Utilizadas
 
 SEO & Analytics: Google Search Console, Google Analytics, JSON-LD, Open Graph.
+
 Frontend: HTML5 Semántico, CSS3 (BEM/Modular), JavaScript (Vanilla).
+
 Backend: PHP 8.x (Código fuente disponible).
+
 Base de Datos: MySQL / MariaDB.
 
 # Estrategia de Medición (KPIs)
